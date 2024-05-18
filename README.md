@@ -36,18 +36,7 @@ I used Honda Used Car Selling Dataset which is one of my own Dataset uploaded on
 
 - I have named it AutoValuate.
 
-**Link to the Web App :** [Car Price Prediction App](https://car-price-prediction-using-lr.streamlit.app/)
 
-![image](https://github.com/TheMrityunjayPathak/CarPricePrediction/assets/123563634/9c4ed16e-6741-48db-88ed-778c212ac380)
-
-## Table of Contents
-
-- [Setting up the Enviroment](#setting-up-the-enviroment)
-- [Libraries required for the Project](#libraries-required-for-the-project)
-- [Getting started with Repository](#getting-started)
-- [Steps involved in the Project](#steps-involved-in-the-project)
-- [Conclusion](#conclusion)
-- [Link to the Notebook](#link-to-the-notebook)
 
 ## Setting up the Enviroment
 
@@ -89,12 +78,7 @@ Jupyter Notebook is required for this project and you can install and set it up 
 
 - Go to Jupyter Notebook and run this code from a cell - `!pip install sklearn`
 
-## Getting Started
 
-- Clone the repository to your local machine using the following command :
-```
-git clone https://github.com/TheMrityunjayPathak/CarPricePrediction.git
-```
 
 ## Steps involved in the Project
 
@@ -109,20 +93,6 @@ git clone https://github.com/TheMrityunjayPathak/CarPricePrediction.git
 - Modifying Price Column from 6.45 Lakh to 645000 and convering it into Integer by using a Custom Made Function.
 
 - From Car Model Column we will keep only First 3 Words of Cae Model and removing the rest of the Words for better Model Traning.
-
-**Data Visualization**
-
-- Visualizing Year with Price by using sns.swarmplot().
-
-![download](https://github.com/TheMrityunjayPathak/CarPricePrediction/assets/123563634/5e23ec76-ebe0-4f42-9d72-24b881eceeff)
-
-- Visualizing kms Driven with Price by using sns.relplot().
-
-![download](https://github.com/TheMrityunjayPathak/CarPricePrediction/assets/123563634/3d7c4b1f-a2b3-47c7-8e0d-86c49aa80313)
-
-- Visualizing Car Model with Price by using sns.relplot() and Suspension as Hue Parameter.
-
-![download](https://github.com/TheMrityunjayPathak/CarPricePrediction/assets/123563634/c5faa6d5-46ed-4995-82fe-ec042beca0e4)
 
 **Dummy Variable**
 
@@ -160,8 +130,3 @@ git clone https://github.com/TheMrityunjayPathak/CarPricePrediction.git
 
 - Further Model showcased its robustness by undergoing rigorous k-fold cross-validation, resulting in a mean cross-validation score of 83%.
 
-## Link to the Notebook
-[Car Price Prediction](https://www.kaggle.com/code/themrityunjaypathak/car-price-prediction-using-linear-regression)
-
-| [Scroll to Top ⬆️](#car-price-prediction) |
-|:---:|
